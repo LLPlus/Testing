@@ -1,0 +1,23 @@
+<!DOCTYPE>
+<html>
+<title>
+Sign In
+</title>
+<head>
+<!-- Se utilizara un charset en donde se puede desplegar la letra ñ -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+<body>
+	<h1> Pantalla de Sign In ! </h1>
+	<h3> El usuario ingresado no existe, favor de agregar tu informacion para añadir a la lista </h3>
+	<!-- Una forma en donde hay 4 campos de texto y un boton, donde se enviara la informacion a la pagina de registro.php -->
+	<!-- La informacion proporcionada sera almacenada en el archivo de texto -->
+	<form action="registro.php" method="post">
+		*Usuario: <input type="text" name="usuario"><br>
+		Nombre: <input type="text" name="nombre"><br>
+		Correo: <input type="text" name="correo"><br>
+		*Contraseña: <input type="text" name="contrasena"><br>		
+		<input type="submit" value="AGREGAR">
+	</form>
+</body>
+</html>
